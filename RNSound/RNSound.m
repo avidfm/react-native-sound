@@ -362,7 +362,7 @@ RCT_EXPORT_METHOD(setSpeakerPhone : (BOOL)on) {
 }
 
 + (BOOL)requiresMainQueueSetup {
-    return YES;
+    return NO;
 }
 - (void)setOnPlay:(BOOL)isPlaying forPlayerKey:(nonnull NSNumber *)playerKey {
     [self
